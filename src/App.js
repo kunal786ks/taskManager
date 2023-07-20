@@ -79,7 +79,7 @@ function App() {
 
   return (
     <>
-      {complete && <div style={{ position: "absolute",borderRadius:'20px 20px 20px 20px',  boxShadow: "rgb(38, 57, 77) 0px 20px 30px -10px",padding: "20px", display: "flex", flexDirection: "column", width: "30%", height: "100vh", backgroundColor: "beige" }}>
+      {complete && <div style={{ position: "absolute",borderRadius:'20px 20px 20px 20px', overflowY:"scroll",wordBreak:'break-all', boxShadow: "rgb(38, 57, 77) 0px 20px 30px -10px",padding: "20px", display: "flex", flexDirection: "column", width: "30%", height: "100vh", backgroundColor: "beige" }}>
         <div style={{
           display: 'flex',
           justifyContent: 'space-between'
